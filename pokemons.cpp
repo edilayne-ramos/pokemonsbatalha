@@ -266,6 +266,7 @@ void batalhaPokemon(vector<Pokemon>& pokemonsJogador, vector<Pokemon>& pokemonsC
                         << " (" << pokemonsJogador[indiceJogador].ataques[i].tipo << ")\n";
                 }
                 
+                
                 // Entrada do jogador para escolher o ataque
                 int ataqueEscolhido;
                 cout << "\nEscolha um ataque: "; // Aqui é o prompt para a escolha
